@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-weight: 100;
+
+    border-bottom: 3px solid rgb(197, 197, 10);
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+img{
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 1500px;
+    height: 1000px;
+}
+.img__content, i{
+    text-align: center;
+}
+h2{
+    font-weight: 100;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+p{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+ul{
+    padding-left: 40px;
+    padding-top: 20px;
+}
