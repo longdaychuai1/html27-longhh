@@ -1,0 +1,130 @@
+:root{
+    --btn-color:red;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    padding-top: 50px;
+}
+.div__footer{
+    height: 40px;
+    width: 100%;
+    background-color: gray;
+}
+body{
+    background-color: rgb(164, 155, 155);
+}
+/* .menu__header{
+    position: fixed;
+} */
+.nav-item a{
+    color: white;
+    /* display: flex; */
+    font-size: 15px;
+    /* margin: 10px; */
+    padding: 10px;
+}
+.nav-item a:hover{
+    color: blue;
+}
+.banner__content{
+    padding-top: 50px;
+}
+.list-group .list-group-item{
+    font-size: 15px;
+    background-color: gray;
+    color: white;
+}
+.banner__content{
+    padding-bottom: 50px;
+}
+.main__content .form-floating .form-select{
+    height: 20px;
+}
+input .form-control{
+    height: 20px;
+}
+.d-flex a{
+    margin: 10px;
+   /* padding-right:20px ; */
+   text-decoration: none;
+   color: yellow;
+  
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+}
+/* .container .row .col-3 img{
+    margin: 10px;
+    padding: 10px;
+    width: 370px;
+    height: 260px;   
+    display: flex; */
+
+.card-group{
+    /* padding-top: 50px;
+    width: 100%;
+    height: 30px;
+    padding-bottom: 50px; */
+    padding-bottom: 50px;
+    padding-top: 20px;
+   /* height: 70px; */
+   width: 100%;
+   display: flex;
+}
+.card{
+    /* margin-right: 10px; */
+    padding-right: 10px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.btn__mua{
+    background-color: var(--btn-color);
+    border-radius: 30px;
+    width: 100px;
+    color: white;
+}
+.btn__mua:hover{
+    background-color: gray ;
+}
+.card-body{
+    background-color: gray;
+}
+.card-group1{
+    padding-bottom: 50px;
+    /* padding-top: 50px; */
+   /* height: 70px; */
+   width: 100%;
+   display: flex;
+
+}
+.card-group2{
+    padding-bottom: 50px;
+    /* padding-top: 50px; */
+   /* height: 70px; */
+   width: 100%;
+   display: flex;
+}
+.card-text{
+    color: yellow;
+    font-weight: bold;
+}
+p, h6{
+    font-weight: bold;
+}
+
+
+.footer__end .container{
+    margin: 10px;
+    padding: 10px;
+    height: 50px;
+
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
